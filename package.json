@@ -1,0 +1,20 @@
+{
+  "name": "qatw-primeira-edicao",
+  "version": "1.0.0",
+  "description": "Bem-vindo ao repositório do **QA Tech Week - Primeira Edição**! Aqui você encontrará as instruções para configurar o ambiente, subir os serviços necessários e rodar os testes automatizados com Playwright.",
+  "main": "index.js",
+  "scripts": {
+    "play:ui": "npx playwright test --ui",
+    "play:test": "npx playwright test",
+    "play:watch": "npx playwright test --headed",
+    "play:report": "npx playwright test show-report",
+    "play:codegen": "npx playwright codegen http://paybank-mf-auth:3000/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.50.1",
+    "@types/node": "^22.13.1"
+  }
+}
